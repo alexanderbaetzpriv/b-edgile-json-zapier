@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Referenznummer": {
+      "type": "string"
+    },
+    "Projekt-ID": {
+      "type": "integer"
+    },
+    "Unternehmen": {
+      "type": "string"
+    },
+    "Branche": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "string"
+    },
+    "Vertragsart": {
+      "type": "string"
+    },
+    "Standort": {
+      "type": "string"
+    },
+    "Start": {
+      "type": "string"
+    },
+    "Ende": {
+      "type": "string"
+    },
+    "Dauer": {
+      "type": "string"
+    },
+    "Auslastung": {
+      "type": "integer"
+    },
+    "Approximierter Betrag": {
+      "type": "number"
+    },
+    "Projektbeschreibung": {
+      "type": "object",
+      "properties": {
+        "Teil1": {
+          "type": "string"
+        },
+        "Teil2": {
+          "type": "string"
+        },
+        "Teil3": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Teil1",
+        "Teil2",
+        "Teil3"
+      ]
+    },
+    "Aufgaben": {
+      "type": "object",
+      "properties": {
+        "Aufgabe1": {
+          "type": "string"
+        },
+        "Aufgabe2": {
+          "type": "string"
+        },
+        "Aufgabe3": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Aufgabe1",
+        "Aufgabe2",
+        "Aufgabe3"
+      ]
+    },
+    "Qualifikationen": {
+      "type": "object",
+      "properties": {
+        "Qualifikation1": {
+          "type": "string"
+        },
+        "Qualifikation2": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Qualifikation1",
+        "Qualifikation2"
+      ]
+    },
+    "Anforderungen": {
+      "type": "object",
+      "properties": {
+        "Qualifikation1": {
+          "type": "string"
+        },
+        "Qualifikation2": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Qualifikation1",
+        "Qualifikation2"
+      ]
+    },
+    "Zertifizierungen": {
+      "type": "object",
+      "properties": {
+        "Zertifizierung1": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Zertifizierung1"
+      ]
+    },
+    "Sprachkenntnisse": {
+      "type": "string"
+    },
+    "Hinweise zur Bewerbung und Kontaktdaten": {
+      "type": "object",
+      "properties": {
+        "Hinweis1": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Hinweis1"
+      ]
+    }
+  },
+  "required": [
+    "Referenznummer",
+    "Projekt-ID",
+    "Unternehmen",
+    "Branche",
+    "Position",
+    "Vertragsart",
+    "Standort",
+    "Start",
+    "Ende",
+    "Dauer",
+    "Auslastung",
+    "Approximierter Betrag",
+    "Projektbeschreibung",
+    "Aufgaben",
+    "Qualifikationen",
+    "Anforderungen",
+    "Zertifizierungen",
+    "Sprachkenntnisse",
+    "Hinweise zur Bewerbung und Kontaktdaten"
+  ]
+}
