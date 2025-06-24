@@ -81,7 +81,7 @@
       }
     },
     "Projektbeschreibung als Bulletpoints": {
-      "type": "string",
+      "type": "string"
     }
   },
   "required": [
