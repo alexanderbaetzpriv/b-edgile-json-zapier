@@ -79,6 +79,9 @@
       "items": {
         "type": "string"
       }
+    },
+    "Projektbeschreibung als Bulletpoints": {
+      "type": "string",
     }
   },
   "required": [
