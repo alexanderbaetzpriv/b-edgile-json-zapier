@@ -79,9 +79,6 @@
       "items": {
         "type": "string"
       }
-    },
-    "Projektbeschreibung als Bulletpoints": {
-      "type": "string"
     }
   },
   "required": [
@@ -103,7 +100,6 @@
     "Anforderungen",
     "Zertifizierungen",
     "Sprachkenntnisse",
-    "Hinweise zur Bewerbung und Kontaktdaten",
-    "Projektbeschreibung als Bulletpoints"
+    "Hinweise zur Bewerbung und Kontaktdaten"
   ]
 }
