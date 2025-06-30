@@ -30,7 +30,7 @@
       "type": "string"
     },
     "Dauer": {
-      "type": "string"
+      "type": "number"
     },
     "Auslastung": {
       "type": "integer"
