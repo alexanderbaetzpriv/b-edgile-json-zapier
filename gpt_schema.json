@@ -74,10 +74,21 @@
         "type": "string"
       }
     },
-    "Hinweise zur Bewerbung und Kontaktdaten": {
+    "Hinweise zur Bewerbung": {
       "type": "array",
       "items": {
         "type": "string"
+      }
+    },
+    "Kontaktdaten": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "type": "string"
+        },
+        "E-Mail": {
+          "type": "string"
+        }
       }
     }
   },
@@ -100,6 +111,7 @@
     "Anforderungen",
     "Zertifizierungen",
     "Sprachkenntnisse",
-    "Hinweise zur Bewerbung und Kontaktdaten"
+    "Hinweise zur Bewerbung",
+    "Kontaktdaten"
   ]
 }
